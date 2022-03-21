@@ -11,9 +11,8 @@ const Shop = () => {
     }, [])
     return (
         <div className='flex flex-raw  relative flex-wrap '>
-            <div className='basis-4/5 grid grid-cols-3 gap-y-5 gap-x-5 ml-10
-             
-            '>
+            <div className='basis-4/5 grid grid-cols-3 
+            gap-y-5 gap-x-5 ml-10 '>
                 {
                     products.map(product => <Product
                         product={product}
@@ -21,9 +20,10 @@ const Shop = () => {
                     ></Product>)
                 }
             </div>
-            <div className=' fixed top-30 right-5 bg-orange-200  h-3/4  w-44 rounded-lg'>
-                <h3 className='text-center text-xl text-black '>Order Summary</h3>
-
+            <div className=' fixed top-30 right-5 
+            bg-orange-200  h-3/4  w-44 rounded-lg'>
+                <h3 className='text-center text-xl
+                 text-black '>Order Summary</h3>
             </div>
 
         </div>
