@@ -4,7 +4,6 @@ const Product = ({ product,cartHandler}) => {
     const { img, name, ratings, price } = product;
     return (
         <div className=" ">
-
             <div className=" max-w-sm bg-white rounded-lg shadow-md dark:bg-gray-800 dark:border-gray-700">
                 <img src={img} alt='product ' />
                 <div className="px-5 pb-5">
